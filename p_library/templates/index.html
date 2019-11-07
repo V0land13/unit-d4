@@ -1,0 +1,9 @@
+{% extends "base_templ.html" %}
+
+{% block title %}<title>Домашняя библиотека|Главная</title>{% endblock %}
+
+{% block content %}
+<p>Добро пожаловать в {{ title }}.</p>
+<p>Тут собрано {{ books|length }} книг из моей личной коллекции.</p>
+
+{% endblock %}
